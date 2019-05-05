@@ -1,0 +1,126 @@
+body
+{
+	background: #ffb6c1;
+	font-family: Tahoma, Arial, sans-serif;
+	color: #ffffff;
+}
+
+.header img
+{
+	display:block;
+	width:250px;
+	height:250px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.header a {
+	color: #ffffff;
+	font-size: 20px;
+	float: right;
+	padding: 5px;
+}
+.archive
+{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.post-title a
+{
+	font-size:40px;
+	color:#ffffff;
+}
+.post-title
+{
+	font-size:35px;
+	color:#ffffff;
+}
+
+.article-author
+{
+	font-size:20px;
+	width:80%;
+	float:left;
+	font-style: italic;
+}
+
+.article-created-data
+{
+	text-align:right;
+	font-size:20px;
+	font-style: italic;
+}
+
+.article a
+{
+	color:#ffffff;
+	text-align:right;
+	margin-left:25%;
+	font-size:15pt;
+}
+
+.article .post-title
+{
+	margin-top:10%;
+}
+
+.fold-button
+{
+	text-decoration:underline;
+	font-size: 20;
+}
+.one-post.folded .article-info, .one-post.folded .article-text{ 
+/* данный стиль применится только для элементов класса 
+.article-author, у которых родитель с классом one-post 
+имеет также класс folded */ 
+display: none; 
+} 
+.one-post-shadow 
+{ 
+position: absolute; 
+top: 0; 
+left: 0; 
+height: 100%; 
+width: 100%; 
+background: black; 
+z-index: -1; /* отодвигает элемент на задний план */ 
+opacity: 0; 
+
+}
+.parallax {
+margin-top: 100px;
+margin-bottom: 100px;
+height: 300px;
+position: relative;
+background: #E0FFFF;
+}
+.text-area{
+	float:right;
+	color:#2F4F4F;
+}
+.service-title{
+	font-size: 50px;
+	padding:30px;
+}
+.text-area a{
+	font-size: 20px;
+	padding-left: 50px;
+	color: #2F4F4F;
+}
+.parallax img {
+/* здесь находятся общие для всех картинок стили */
+height: 200px;
+width: 200px;
+top: 0;
+}
+.ad1 {
+position:absolute;
+padding-top: 100px; /* эта картинка слегка смещена вправо и вниз */
+padding-left: 80px; /* за счет левой и верхней границ */
+z-index: 1;
+}
+.ad {
+position:absolute;
+padding-left: 160px;
+z-index: 2; /* эта картинка на заднем плане, у неё меньший z-index */
+}
